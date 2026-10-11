@@ -1,1 +1,28 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بحث تصاميم الأنمي والألعاب</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>🎮 Anime & Games Edits Finder 🎵</h1>
+        <p>ابحث عن أي مزيج بين لعبة/أنمي وأغنية، ولقى النتائج كاملة!</p>
+        
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="مثال: Dark Souls x For Honor rap">
+            <button id="searchBtn">بحث الذكي</button>
+        </div>
+
+        <div id="resultsContainer" class="results">
+            <!-- هنا وين تخرج النتائج -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
 
